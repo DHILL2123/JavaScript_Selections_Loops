@@ -29,6 +29,7 @@ FIZZBUZZ is a very common coding interview problem. Below are the instructions t
    - If the number is divisible by 5, then console.log `'BUZZ'`
    - If the number is divisible by both 3 and 5, then console.log `'FIZZBUZZ'`
 
+
 Ex: `15` would print `'FIZZBUZZ'`, `33` would print `'FIZZ'`, and `35` would print `'BUZZ'`
 
 ## Exercise 3: Repeat with While and Do/While
@@ -46,7 +47,7 @@ let value = Math.round((Math.random() * 500)); // creates a random number betwee
 let n = Math.round(Math.random() * (500 - 100) + 100); // creates a random number between 100 and 500
 ```
 
-2. Create a `for` loop that iterates from 0 to n
+2.that iterates from 0 to n
 3. If your current iteration is equal to `value`, then print "Found value!", and `break` out of the loop
 4. If you do not ever find the value and break out of the loop, then after the loop is finished, print "Did not find value"
 
